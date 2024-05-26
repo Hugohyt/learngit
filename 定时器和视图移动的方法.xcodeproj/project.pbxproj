@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F21854F32C02FC87000D2398 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F21854F22C02FC87000D2398 /* AppDelegate.m */; };
+		F21854F62C02FC87000D2398 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F21854F52C02FC87000D2398 /* SceneDelegate.m */; };
+		F21854F92C02FC87000D2398 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21854F82C02FC87000D2398 /* ViewController.m */; };
+		F21854FC2C02FC87000D2398 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F21854FB2C02FC87000D2398 /* Base */; };
+		F21854FE2C02FC89000D2398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21854FD2C02FC89000D2398 /* Assets.xcassets */; };
+		F21855012C02FC89000D2398 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F21855002C02FC89000D2398 /* Base */; };
+		F21855042C02FC89000D2398 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F21855032C02FC89000D2398 /* main.m */; };
+		F218550E2C02FC8A000D2398 /* ___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F218550D2C02FC8A000D2398 /* ___________Tests.m */; };
+		F21855182C02FC8A000D2398 /* ___________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F21855172C02FC8A000D2398 /* ___________UITests.m */; };
+		F218551A2C02FC8A000D2398 /* ___________UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F21855192C02FC8A000D2398 /* ___________UITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F218550A2C02FC8A000D2398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F21854E62C02FC87000D2398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F21854ED2C02FC87000D2398;
+			remoteInfo = "定时器和视图移动的方法";
+		};
+		F21855142C02FC8A000D2398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F21854E62C02FC87000D2398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F21854ED2C02FC87000D2398;
+			remoteInfo = "定时器和视图移动的方法";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F21854EE2C02FC87000D2398 /* 定时器和视图移动的方法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "定时器和视图移动的方法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21854F12C02FC87000D2398 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F21854F22C02FC87000D2398 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F21854F42C02FC87000D2398 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F21854F52C02FC87000D2398 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F21854F72C02FC87000D2398 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F21854F82C02FC87000D2398 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F21854FB2C02FC87000D2398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F21854FD2C02FC89000D2398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F21855002C02FC89000D2398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F21855022C02FC89000D2398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21855032C02FC89000D2398 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F21855092C02FC8A000D2398 /* 定时器和视图移动的方法Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "定时器和视图移动的方法Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F218550D2C02FC8A000D2398 /* ___________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________Tests.m"; sourceTree = "<group>"; };
+		F21855132C02FC8A000D2398 /* 定时器和视图移动的方法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "定时器和视图移动的方法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21855172C02FC8A000D2398 /* ___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________UITests.m"; sourceTree = "<group>"; };
+		F21855192C02FC8A000D2398 /* ___________UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________UITestsLaunchTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F21854EB2C02FC87000D2398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21855062C02FC8A000D2398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21855102C02FC8A000D2398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F21854E52C02FC87000D2398 = {
+			isa = PBXGroup;
+			children = (
+				F21854F02C02FC87000D2398 /* 定时器和视图移动的方法 */,
+				F218550C2C02FC8A000D2398 /* 定时器和视图移动的方法Tests */,
+				F21855162C02FC8A000D2398 /* 定时器和视图移动的方法UITests */,
+				F21854EF2C02FC87000D2398 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F21854EF2C02FC87000D2398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F21854EE2C02FC87000D2398 /* 定时器和视图移动的方法.app */,
+				F21855092C02FC8A000D2398 /* 定时器和视图移动的方法Tests.xctest */,
+				F21855132C02FC8A000D2398 /* 定时器和视图移动的方法UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F21854F02C02FC87000D2398 /* 定时器和视图移动的方法 */ = {
+			isa = PBXGroup;
+			children = (
+				F21854F12C02FC87000D2398 /* AppDelegate.h */,
+				F21854F22C02FC87000D2398 /* AppDelegate.m */,
+				F21854F42C02FC87000D2398 /* SceneDelegate.h */,
+				F21854F52C02FC87000D2398 /* SceneDelegate.m */,
+				F21854F72C02FC87000D2398 /* ViewController.h */,
+				F21854F82C02FC87000D2398 /* ViewController.m */,
+				F21854FA2C02FC87000D2398 /* Main.storyboard */,
+				F21854FD2C02FC89000D2398 /* Assets.xcassets */,
+				F21854FF2C02FC89000D2398 /* LaunchScreen.storyboard */,
+				F21855022C02FC89000D2398 /* Info.plist */,
+				F21855032C02FC89000D2398 /* main.m */,
+			);
+			path = "定时器和视图移动的方法";
+			sourceTree = "<group>";
+		};
+		F218550C2C02FC8A000D2398 /* 定时器和视图移动的方法Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F218550D2C02FC8A000D2398 /* ___________Tests.m */,
+			);
+			path = "定时器和视图移动的方法Tests";
+			sourceTree = "<group>";
+		};
+		F21855162C02FC8A000D2398 /* 定时器和视图移动的方法UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F21855172C02FC8A000D2398 /* ___________UITests.m */,
+				F21855192C02FC8A000D2398 /* ___________UITestsLaunchTests.m */,
+			);
+			path = "定时器和视图移动的方法UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F21854ED2C02FC87000D2398 /* 定时器和视图移动的方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F218551D2C02FC8A000D2398 /* Build configuration list for PBXNativeTarget "定时器和视图移动的方法" */;
+			buildPhases = (
+				F21854EA2C02FC87000D2398 /* Sources */,
+				F21854EB2C02FC87000D2398 /* Frameworks */,
+				F21854EC2C02FC87000D2398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "定时器和视图移动的方法";
+			productName = "定时器和视图移动的方法";
+			productReference = F21854EE2C02FC87000D2398 /* 定时器和视图移动的方法.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F21855082C02FC8A000D2398 /* 定时器和视图移动的方法Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21855202C02FC8A000D2398 /* Build configuration list for PBXNativeTarget "定时器和视图移动的方法Tests" */;
+			buildPhases = (
+				F21855052C02FC8A000D2398 /* Sources */,
+				F21855062C02FC8A000D2398 /* Frameworks */,
+				F21855072C02FC8A000D2398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F218550B2C02FC8A000D2398 /* PBXTargetDependency */,
+			);
+			name = "定时器和视图移动的方法Tests";
+			productName = "定时器和视图移动的方法Tests";
+			productReference = F21855092C02FC8A000D2398 /* 定时器和视图移动的方法Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F21855122C02FC8A000D2398 /* 定时器和视图移动的方法UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21855232C02FC8A000D2398 /* Build configuration list for PBXNativeTarget "定时器和视图移动的方法UITests" */;
+			buildPhases = (
+				F218550F2C02FC8A000D2398 /* Sources */,
+				F21855102C02FC8A000D2398 /* Frameworks */,
+				F21855112C02FC8A000D2398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F21855152C02FC8A000D2398 /* PBXTargetDependency */,
+			);
+			name = "定时器和视图移动的方法UITests";
+			productName = "定时器和视图移动的方法UITests";
+			productReference = F21855132C02FC8A000D2398 /* 定时器和视图移动的方法UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F21854E62C02FC87000D2398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F21854ED2C02FC87000D2398 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F21855082C02FC8A000D2398 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F21854ED2C02FC87000D2398;
+					};
+					F21855122C02FC8A000D2398 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F21854ED2C02FC87000D2398;
+					};
+				};
+			};
+			buildConfigurationList = F21854E92C02FC87000D2398 /* Build configuration list for PBXProject "定时器和视图移动的方法" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F21854E52C02FC87000D2398;
+			productRefGroup = F21854EF2C02FC87000D2398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F21854ED2C02FC87000D2398 /* 定时器和视图移动的方法 */,
+				F21855082C02FC8A000D2398 /* 定时器和视图移动的方法Tests */,
+				F21855122C02FC8A000D2398 /* 定时器和视图移动的方法UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F21854EC2C02FC87000D2398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21854FE2C02FC89000D2398 /* Assets.xcassets in Resources */,
+				F21855012C02FC89000D2398 /* Base in Resources */,
+				F21854FC2C02FC87000D2398 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21855072C02FC8A000D2398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21855112C02FC8A000D2398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F21854EA2C02FC87000D2398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21854F92C02FC87000D2398 /* ViewController.m in Sources */,
+				F21854F32C02FC87000D2398 /* AppDelegate.m in Sources */,
+				F21855042C02FC89000D2398 /* main.m in Sources */,
+				F21854F62C02FC87000D2398 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21855052C02FC8A000D2398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F218550E2C02FC8A000D2398 /* ___________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F218550F2C02FC8A000D2398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F218551A2C02FC8A000D2398 /* ___________UITestsLaunchTests.m in Sources */,
+				F21855182C02FC8A000D2398 /* ___________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F218550B2C02FC8A000D2398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F21854ED2C02FC87000D2398 /* 定时器和视图移动的方法 */;
+			targetProxy = F218550A2C02FC8A000D2398 /* PBXContainerItemProxy */;
+		};
+		F21855152C02FC8A000D2398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F21854ED2C02FC87000D2398 /* 定时器和视图移动的方法 */;
+			targetProxy = F21855142C02FC8A000D2398 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F21854FA2C02FC87000D2398 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21854FB2C02FC87000D2398 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F21854FF2C02FC89000D2398 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21855002C02FC89000D2398 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F218551B2C02FC8A000D2398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F218551C2C02FC8A000D2398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F218551E2C02FC8A000D2398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "定时器和视图移动的方法/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F218551F2C02FC8A000D2398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "定时器和视图移动的方法/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F21855212C02FC8A000D2398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/定时器和视图移动的方法.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/定时器和视图移动的方法";
+			};
+			name = Debug;
+		};
+		F21855222C02FC8A000D2398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/定时器和视图移动的方法.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/定时器和视图移动的方法";
+			};
+			name = Release;
+		};
+		F21855242C02FC8A000D2398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "定时器和视图移动的方法";
+			};
+			name = Debug;
+		};
+		F21855252C02FC8A000D2398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "定时器和视图移动的方法";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F21854E92C02FC87000D2398 /* Build configuration list for PBXProject "定时器和视图移动的方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F218551B2C02FC8A000D2398 /* Debug */,
+				F218551C2C02FC8A000D2398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F218551D2C02FC8A000D2398 /* Build configuration list for PBXNativeTarget "定时器和视图移动的方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F218551E2C02FC8A000D2398 /* Debug */,
+				F218551F2C02FC8A000D2398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21855202C02FC8A000D2398 /* Build configuration list for PBXNativeTarget "定时器和视图移动的方法Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21855212C02FC8A000D2398 /* Debug */,
+				F21855222C02FC8A000D2398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21855232C02FC8A000D2398 /* Build configuration list for PBXNativeTarget "定时器和视图移动的方法UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21855242C02FC8A000D2398 /* Debug */,
+				F21855252C02FC8A000D2398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F21854E62C02FC87000D2398 /* Project object */;
+}
